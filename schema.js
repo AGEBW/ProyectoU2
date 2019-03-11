@@ -14,6 +14,12 @@ module.exports= new mongoose.Schema({
       NC:{
         type: Number,
         required:true
+      },
+      Semestre:{
+        type: Number,
+        min:3,
+        max:3,
+        required:true
       }
       
 });

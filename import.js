@@ -21,7 +21,8 @@ fs.readFile('file.txt', function(err, data) {
     var user= new User({
         Nombre:array[0],
         Email:array[1],
-        NC:array[2]
+        NC:array[2],
+        Semestre:array[3]
         });
         
     user.save(function(error){
